@@ -2,15 +2,15 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/VanThanhIOS/OniiChan
 
        local Window = MakeWindow({
          Hub = {
-         Title = "Văn Thành IOS",
+         Title = "lxlc test",
          Animation = "Script Tổng Hợp Ver1"
          },
         Key = {
         KeySystem = false,
-        Title = "Văn ThànHh IOS / Scrit Tổng Hợp",
+        Title = "lxlc / Scrit Tổng Hợp",
         Description = "",
         KeyLink = "",
-        Keys = {"VanThanhIOS"},
+        Keys = {"lxlc"},
         Notifi = {
         Notifications = true,
         CorrectKey = "Đang Chạy Kịch Bản",
@@ -21,7 +21,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/VanThanhIOS/OniiChan
   })
 
        MinimizeButton({
-       Image = "http://www.roblox.com/asset/?id=89284864928775",
+       Image = "http://www.roblox.com/asset/?id=133574110910164",
        Size = {40, 40},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
@@ -188,14 +188,14 @@ game:GetService("Players").LocalPlayer.Idled:connect(function()
 end)
  
 game.StarterGui:SetCore("SendNotification", {
-    Title = "Văn Thành IOS";
+    Title = "lxlc";
     Text = "Đã Bật hitbox"; -- what the text says (ofc)
     Duration = 1;
 })
 wait(1)
 game.StarterGui:SetCore("SendNotification", {
-    Title = "Văn Thành IOS";
-    Text = "YTB: @thanhdzso1"; -- what the text says (ofc)
+    Title = "lxlc";
+    Text = "YTB: @ldk"; -- what the text says (ofc)
     Duration = 1;
 })
 _G.HeadSize = 120
@@ -221,10 +221,10 @@ end)
   })
 
     AddButton(Tab1o, {
-     Name = "Aim Camera",
+     Name = "idk",
     Callback = function()
             
-loadstring(Game:HttpGet("https://raw.githubusercontent.com/VanThanhIOS/AlexAimBot/refs/heads/main/AimBotBanTumLum.lua.txt"))()
+loadstring(Game:HttpGet("https://raw.githubusercontent.com//refs/heads/main/AimBotBanTumLum.lua.txt"))()
             
   end
   })
